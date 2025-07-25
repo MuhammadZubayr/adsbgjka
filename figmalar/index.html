@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P.ai</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #fff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    nav h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .right-nav {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .icon {
+      padding-left: 20px;
+      margin-top: -75px;
+    }
+
+    .bosh, .qosh {
+      text-align: center;
+      font-size: 55px;
+    }
+
+    .qosh {
+      color: #7E5FFF;
+      margin-top: -20px;
+    }
+
+    .body {
+      text-align: center;
+      font-size: 22px;
+      color: #0D0D0D;
+      padding: 20px;
+    }
+
+    .urta {
+      background-color: black;
+      color: white;
+      padding: 100px 0;
+    }
+
+    .orta {
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .imglar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding-top: 50px;
+      flex-wrap: wrap;
+    }
+
+    .soz {
+      text-align: center;
+      font-size: 16px;
+      padding-top: 40px;
+    }
+
+    .past, .passt, .yana, .yanada_past {
+      padding: 100px 50px;
+    }
+
+    .passt, .yana {
+      background-color: #F3F3F3;
+    }
+
+    .yanada_past {
+      background-color: #0D0D0D;
+      color: white;
+      text-align: center;
+    }
+
+    .yanada_past h2 {
+      font-size: 58px;
+      margin-top: 0;
+    }
+
+    .frame-img {
+      display: block;
+      margin: 40px auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .rectangle-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      margin: 100px auto;
+    }
+
+    .rectangle3, .rectangle2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .rectangle3 img {
+      width: 260px;
+      z-index: 1;
+    }
+
+    .rectangle2 img {
+      width: 280px;
+      left: 20px;
+      top: 20px;
+      z-index: 2;
+      position: absolute;
+    }
+
+    
+    @media (max-width: 1024px) {
+      .right-nav {
+        padding-left: 100px;
+        gap: 30px;
+      }
+
+      .rectangle-container {
+        width: 250px;
+        height: 180px;
+      }
+
+      .rectangle3 img {
+        width: 220px;
+      }
+
+      .rectangle2 img {
+        width: 240px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .right-nav {
+        padding-left: 0;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .bosh, .qosh {
+        font-size: 38px;
+      }
+
+      .body {
+        font-size: 18px;
+      }
+
+      .passt, .yanada_past {
+        height: auto;
+        padding-bottom: 100px;
+      }
+
+      .rectangle-container {
+        width: 200px;
+        height: 150px;
+      }
+
+      .rectangle3 img {
+        width: 180px;
+      }
+
+      .rectangle2 img {
+        width: 200px;
+        left: 10px;
+        top: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .bosh, .qosh {
+        font-size: 28px;
+      }
+
+      .body {
+        font-size: 16px;
+      } 
+
+      .right-nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .rectangle-container {
+        width: 160px;
+        height: 120px;
+      }
+
+      .rectangle3 img {
+        width: 140px;
+      }
+
+      .rectangle2 img {
+        width: 160px;
+        left: 10px;
+        top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>P.ai</h1>
+    <div class="right-nav">
+      <a style="color: black;" href="">Product</a>
+      <a style="color: black;" href="">Customers</a>
+      <a style="color: black;" href="">About</a>
+      <a style="color: black;" href="">Blog</a>
+      <a style="color: black;" href="">Login</a>
+    </div>
+  </nav>
+
+  <div class="icon">
+    <img src="Vector (5).png" alt="">
+  </div>
+
+  <div class="bosh">
+    <p>Generate unlimited,<br> winning audiences.</p>
+  </div>
+
+  <div class="qosh">
+    <p>No targeting gaps.</p>
+  </div>
+
+  <div class="body">
+    <p>Use machine learning with first-party data to generate <br>
+    an endless amount of audiences for your marketing & <br>
+    advertising channels. No effort or delay & <br>
+    complementary to Customer Data Platforms.</p>
+  </div>
+
+  <section class="urta">
+    <div class="orta">
+      <p>Chosen by progressive marketers.</p>
+    </div>
+
+    <div class="imglar">
+      <img src="IMAGE (34).png" alt="">
+      <img src="IMAGE (35).png" alt="">
+      <img src="IMAGE (36).png" alt="">
+      <img src="IMAGE (37).png" alt="">
+    </div>
+
+    <div class="soz">
+      <p>Read success stories</p>
+    </div>
+  </section>
+
+  <section class="past">
+    <div>
+      <h2>Predict every <br> customer’s <br> future.</h2>
+      <p>Accurately predict short and long-term customer <br>
+      outcomes and take action with forward-looking data.</p>
+      <p>Learn more</p>
+      <img class="frame-img" src="Frame (6).png" alt="">
+    </div>
+  </section>
+
+  <section class="passt">
+    <div>
+      <h2>Determine how <br> predictive <br> audiences get <br> built.</h2>
+      <p>Use a combination of predictions to build your <br>
+      predictive audiences most suited to the task at hand; <br>
+      acquiring high-value customers or driving repeat <br>
+      customer conversions.</p>
+      <p>Learn more</p>
+      <img class="frame-img" src="Frame (7).png" alt="">
+    </div>
+  </section>
+
+  <section class="yana">
+    <div>
+      <h2>Activate your <br> predictive <br> audiences <br> anywhere.</h2>
+      <p>Sync to any marketing channel for targeting, or run <br>
+      multi-cell holdout experiments to prove lift.</p>
+      <p>Learn more</p>
+      <img class="frame-img" src="Frame (8).png" alt="">
+    </div>
+  </section>
+
+  <section class="yanada_past">
+    <h2>Volume, uplift and efficiency.</h2>
+    <h2 style="margin-top: -30px;">No trade-offs.</h2>
+    <img class="frame-img" src="Frame (9).png" alt="">
+
+    <div class="rectangle-container">
+      <div class="rectangle3">
+        <img src="Rectangle (3).png" alt="Rectangle 3">
+      </div>
+      <div class="rectangle2">
+        <img src="Rectangle (4).png" alt="Rectangle 4">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

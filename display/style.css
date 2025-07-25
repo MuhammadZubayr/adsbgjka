@@ -1,0 +1,55 @@
+.title {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    margin: 100px;
+    display: inline;
+}
+
+.description {
+    background-color: olivedrab;
+    display: inline;
+}
+
+.sarlavha {
+    background-color: orange;
+    display: block;
+}
+
+.tarif {
+    background-color: aqua;
+    display: block;
+}
+
+.scratch {
+    background-color: yellow;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.python {
+    background-color: greenyellow;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.html {
+    background-color: orangered;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.css {
+    background-color: aqua;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}

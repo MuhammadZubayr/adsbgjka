@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed relative</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            height: 100000000000000000000000000000000000px;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .content {
+            margin-top: 80px; 
+            padding: 20px;
+        }
+
+        .relative-box {
+            position: relative;
+            top: 20px;
+            background-color: #3498db;
+            color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fixed-header">Bu FIXED sarlavha (har doim yuqorida qoladi)</div>
+
+    <div class="content">
+        <div class="relative-box">1 - relative quti</div>
+        <div class="relative-box">2 - relative quti</div>
+        <div class="relative-box">3 - relative quti</div>
+        <div class="relative-box">4 - relative quti</div>
+        <div class="relative-box">5 - relative quti</div>
+        <div class="relative-box">6 - relative quti</div>
+        <div class="relative-box">7 - relative quti</div>
+    </div>
+
+</body>
+</html>

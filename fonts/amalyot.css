@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&display=swap');
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    background: gray;
+    color: white;
+}
+
+.left-navbar {
+    display: flex;
+    gap: 20px;
+}

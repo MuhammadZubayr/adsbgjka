@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'quvchi Kabineti</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            background-color: #f2f9d5;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 10px;
+            
+        }
+
+        .oquvchi {
+            text-align: center;
+            color: #222261;
+        }
+
+        .shaxsiy h3 {
+            color: crimson;
+        }
+
+        .form-group {
+            margin: 15px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        textarea {
+            padding: 10px;
+            border: 1px solid ;
+            border-radius: 6px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .reja table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .reja th {
+            background-color: hwb(236 63% 0%);
+            color: white;
+            padding: 10px;
+        }
+
+        .reja td {
+            background-color: bisque;
+            padding: 10px;
+            text-align: center;
+            font-weight: 500;
+            border: 1px solid #ccc;
+        }
+
+        .bah {
+            background-color: #f7f752;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: crimson;
+            font-family: sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+
+    <section class="oquvchi">
+        <h2><b>O'QUVCHI KABINETI</b></h2>
+        <p>Ushbu sahifada siz o'zingiz haqingizda ma'lumot kiriting, o'quv rejangizni belgilang, va o'zingizni baholang. Bu sizga o'z ustingizda ishlashga yordam beradi.</p>
+    </section>
+
+    <section class="shaxsiy">
+        <h3><b>Shaxsiy Ma'lumotlaringiz</b></h3>
+
+        <div class="form-group">
+            <label for="username">Ismingiz:</label>
+            <input type="text" id="username" name="username" placeholder="Ismingizni yozing">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Tug'ilgan sanangiz:</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email manzilingiz:</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com">
+        </div>
+
+        <div class="form-group">
+            <label for="dastur">Eng ko'p yoqadigan faningiz:</label>
+            <select name="dastur" id="dastur">
+                <option value="uz">Dasturlash</option>
+                <option value="ru">HTML</option>
+                <option value="en">CSS</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="fikr">O'quv jarayoni haqida fikringiz:</label>
+            <textarea id="fikr" name="fikr" placeholder="Fikringizni yozing..."></textarea>
+        </div>
+    </section>
+
+    <section class="reja">
+        <h2><b>O'quv Haftalik Reja</b></h2>
+        <table border="1">
+            <tr>
+                <th>KUN</th>
+                <th>1-DARS</th>
+                <th>2-DARS</th>
+                <th>3-DARS</th>
+                <th>UYGA VAZIFA</th>
+            </tr>
+            <tr>
+                <td>Dushanba</td>
+                <td>Matematika</td>
+                <td>Ingliz tili</td>
+                <td>Dasturlash</td>
+                <td>Python mashqlari</td>
+            </tr>
+            <tr>
+                <td>Seshanba</td>
+                <td>Fizika</td>
+                <td>Tarix</td>
+                <td>Matematika</td>
+                <td>2 misol yechish</td>
+            </tr>
+            <tr>
+                <td>Chorshanba</td>
+                <td>Texnologiya</td>
+                <td>Dasturlash</td>
+                <td>Sport</td>
+                <td>Sayt loyihasi</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="baho">
+        <h2><b>O'zingizni baholang</b></h2>
+
+    <div class="bah">
+            <p>O'zingizga 1 dan 10 gacha baho bering va nega bu bahoni qo'yganingizni yozing. Bu o'z-o'zini tahlil qilishni o'rganishga yordam beradi.</p>
+        </div>
+
+        <div class="form-group">
+           <label for="baho">O'z-o'zini baholash (1-10):</label>
+  <input type="text" id="baho" name="baho" placeholder="Masalan 7">
+        </div>
+
+             <div class="form-group">
+            <label for="sababi">Sababi:</label>
+            <textarea id="sababi" name="sababi" placeholder="Nega o'zingizga bu bahoni berdingiz?"></textarea>
+        </div>
+    </section>
+
+</body>
+</html>

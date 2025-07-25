@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profilni tahrirlash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Profilni tahrirlash</h1>
+
+        <form id="profileForm">
+            <label for="name">Ismingiz:</label><br>
+            <input type="text" id="name" placeholder="Ism kiriting"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Email kiriting"><br><br>
+
+            <p>Qaysi fanlarga qiziqasiz?</p>
+            <label><input type="checkbox" value="HTML" checked> <span class="html">HTML</span></label><br>
+            <label><input type="checkbox" value="CSS" checked> <span class="css">CSS</span></label><br>
+            <label><input type="checkbox" value="JavaScript" checked> <span class="js">JavaScript</span></label><br><br>
+
+            <button type="button" onclick="saqlash()">Saqlash</button>
+        </form>
+
+        <h2>O'rganilayotgan fanlar:</h2>
+        <ul id="fanlarRo'yxati">
+            <li style="color: red;">HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li style="color: purple;">Python</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

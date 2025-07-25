@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 12px 32px;
+        }
+        .img img {
+            height: 40px;
+            display: block;
+        }
+        .href {
+            display: flex;
+            gap: 40px;
+        }
+        .href a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.2s;
+            padding: 6px 0;
+            position: relative;
+        }
+        .href a:hover {
+            color: #007bff;
+        }
+        .mg {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .mg img {
+            height: 28px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .mg img:hover {
+            opacity: 0.7;
+        }
+
+        .tex {
+            position: absolute;
+            margin-left: 380px;
+            margin-top: 500px;
+            text-align: center;
+            font-size: 40px;
+        }
+        .btn button{
+            position: absolute;
+            margin-top: 350px;
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 53px;
+            margin-left: -760px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="img">
+                <img src="IMAGE (39).png" alt="Logo">
+            </div>
+            <div class="href">
+                <a href="#">SHOP</a>
+                <a href="#">LEARN</a>
+                <a href="#">SUSTAINABILITY</a>
+                <a href="#">OUR STORY</a>
+                <a href="#">PRESS</a>
+                <a href="#">QUIZ</a>
+            </div>
+            <div class="mg">
+                <img id="img1" src="IMAGE (40).png" alt="Icon 1">
+                <img id="img2" src="IMAGE (41).png" alt="Icon 2">
+            </div>
+            <div class="tex">
+                <p>Find Your Shower <br> Routine (& Receive <br> a Free Gift!).</p>
+            </div>
+            <div class="btn">
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

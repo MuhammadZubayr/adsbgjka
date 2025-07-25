@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white; 
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+input[type="email"] {
+    background-color: aqua;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.html {
+    color: green;
+    font-weight: bold;
+}
+
+.css {
+    color: green;
+    font-weight: bold;
+}
+
+.js {
+    color: green;
+    font-weight: bold;
+}

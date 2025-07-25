@@ -1,0 +1,77 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+
+}
+
+
+.cart {
+    background: pink;
+    z-index: 4;
+    left: 44%;
+    top: 34%;
+    background: gray;
+}
+
+.cart1 {
+    background: red;
+    z-index: 2;
+    left: 0;
+}
+
+.cart2 {
+    background: purple;
+    z-index: 3;
+    right: 0;
+    bottom: 0;
+}
+
+.cart3 {
+    background: green;
+    z-index: 2;
+    right: 0;
+
+}
+
+.cart4 {
+    background: blue;
+    bottom: 0;
+
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.ota {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}

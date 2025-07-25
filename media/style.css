@@ -1,0 +1,42 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background: blue;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 744px) {
+    div {
+        width: 450px;
+        height: 450px;
+        background: pink;
+        border-radius: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    div {
+        width: 350px;
+        height: 350px;
+        background: green;
+        border-radius: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div {
+        width: 250px;
+        height: 250px;
+        background: red;
+        border-radius: 40px;
+
+    }
+} */

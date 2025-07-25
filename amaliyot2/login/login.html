@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .form {
+            padding-left: 500px;
+            padding-top: 100px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 300px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .form h2 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form">
+            <form action="/login" method="post" style="max-width:300px;margin:auto;">
+    <h2>Login</h2>
+    <label for="username">Username:</label><br>
+    <input style="border-color: white;"" placeholder="Type your username" type="username" id="username" name="username" required  ><br><br>
+    <label for="password">Password:</label><br>
+    <input style="border-color: white;" placeholder="Type your password" type="password" id="password" name="password" required><br><br>
+    <button style="background-color: blue; border-radius: 5px; color: white;"  type="submit">Login</button><br><br>
+    </div>
+
+</form> 
+</body>
+</html>

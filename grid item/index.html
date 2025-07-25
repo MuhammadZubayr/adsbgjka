@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="menyu">
+        <h1 style="font-size: 70px; padding-top: 200px; font-family: sans-serif;">MENU</h1>
+    </div>
+    <div class="header">
+        <h1 style="font-size: 70px; top: 10px; padding-left: 350px; font-family: sans-serif;">HEADER</h1>
+    </div>
+    <div class="content">
+        <h1 style="font-size: 70px; padding-left: 330px; padding-top: 150px; font-family: sans-serif;">CONTENT</h1>
+    </div>
+    <div class="footer">
+        <H1 style="font-size: 70px; padding-left: 380px; font-family: sans-serif;">FOOTER</H1>
+    </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      gap: 10px;
+      padding: 10px;
+      background: #eee;
+      margin-bottom: 40px;
+    }
+
+    .grid-item {
+      background-color: yellow;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+      font-size: 20px;
+    }
+
+    .rowspan-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 100px);
+    }
+
+    .rowspan-grid .item1 {
+      grid-row: span 3;
+    }
+
+    .colspan-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 100px);
+    }
+
+    .colspan-grid .item1 {
+      grid-column: span 3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grid-container rowspan-grid">
+    <div style="background: black;" class="grid-item item1">Item 1 </div>
+    <div style="background: green;" class="grid-item item2">Item 2</div>
+    <div style="background: red;" class="grid-item item3">Item 3</div>
+    <div class="grid-item item4">Item 4</div>
+    <div class="grid-item item5">Item 5</div>
+  </div>
+
+  <div class="grid-container colspan-grid">
+    <div class="grid-item item1">Item 1 </div>
+    <div class="grid-item item2">Item 2</div>
+    <div class="grid-item item3">Item 3</div>
+    <div class="grid-item item4">Item 4</div>
+  </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Gap Example</title>
+  <style>
+    
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="box box1">Box-1</div>
+    <div class="box box2">Box-2</div>
+    <div class="box box3">Box-3</div>
+    <div class="box box4">Box-4</div>
+    <div class="box box5">Box-5</div>
+    <div class="box box6">Box-6</div>
+    <div class="box box7">Box-7</div>
+    <div class="box box8">Box-8</div>
+    <div class="box box9">Box-9</div>
+  </div>
+</body>
+</html>
+

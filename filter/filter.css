@@ -1,0 +1,42 @@
+.box1{
+    width: 200px;
+    height: auto;
+    filter: blur(10px);
+    transition: filter 0.5s ease-in-out;
+}
+.box1:hover{
+    filter: blur(0px);
+    transition: filter 0.5s ease-in-out;
+}
+.box1:active{
+    filter: brightness(400%);
+    transition: filter 0.5s ease-in-out;
+
+}
+
+.box2:hover {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+.box2:active {
+    filter: grayscale(0%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.box2:active {
+    filter: opacity(0.2);
+    transition: filter 0.5s ease-in-out;
+}
+
+.box3:hover {
+    width: 200px;
+    height: auto;
+    filter: sepia(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.box3:active {
+    filter: hue-rotate(90deg);
+    transition: filter 0.5s ease-in-out;
+}
+
